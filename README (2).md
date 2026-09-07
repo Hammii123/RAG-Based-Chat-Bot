@@ -4,6 +4,10 @@ A simple **Retrieval-Augmented Generation (RAG)** application that allows users 
 
 The application extracts text from the PDF, splits it into chunks, converts the chunks into vector embeddings, stores them in a **FAISS** vector index, retrieves the most relevant chunks for a user's question, and sends the retrieved context to **GPT-OSS 120B through Groq** to generate a grounded answer.
 
+
+See the project live [here](https://rag-based-chat-bot.streamlit.app/).
+
+
 ---
 
 ## 🚀 Features
